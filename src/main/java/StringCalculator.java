@@ -73,9 +73,9 @@ public static void main(String[] Args) throws Exception {
     System.out.println("Result = "+Add("1\n2,3"));
     System.out.println("Result = "+Add("//4\n142"));
     System.out.println("Result = "+Add("//***\n1***2***3"));
-    System.out.println("Result = "+Add("//4\n142"));
+    System.out.println("Result = "+Add("//;\n1000,1;2"));
     System.out.println("Result = "+Add("//[(-_-')][%]\n1(-_-')2%3"));
     System.out.println("Result = "+Add("//[abc][777][:(]\n1abc27773:(1"));
-    //System.out.println("Result = "+Add("-1,-2,3,4")); throws exception for negative numbers
+    
 }
 }
